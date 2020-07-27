@@ -1,7 +1,16 @@
 import React from 'react'
 
-const App = () => {
-  return <div>App Component - Ducks setup</div>
+import Header from 'components/header'
+
+const App: React.FC = () => {
+  return (
+    <>
+      <Header />
+      <div>
+        <h1>App Component - Ducks setup</h1>
+      </div>
+    </>
+  )
 }
 
 export default App
