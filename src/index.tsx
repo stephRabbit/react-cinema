@@ -12,10 +12,10 @@ import store from 'ducks'
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <GlobalStyles />
       <Provider store={store}>
         <App />
       </Provider>
+      <GlobalStyles />
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root'),
